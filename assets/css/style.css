@@ -6573,7 +6573,7 @@ ul.list-products {
 	margin-bottom: 20px;
 }
 .slider-item.style7 .slider-inner {
-	background-image: url(../images/slider-thumb4.jpg);
+	background-image: url(../images/banner-icore-1.png);
 }
 .slider-item.style7 .slider-inner .slider-infor {
 	padding-bottom: 185px;
@@ -6582,7 +6582,7 @@ ul.list-products {
 	padding-right: 400px;
 }
 .slider-item.style8 .slider-inner {
-	background-image: url(../images/slider-thumb5.jpg);
+	background-image: url(../images/banner-icore-2.png);
 }
 .slider-item.style8 .slider-inner .slider-infor {
 	padding-bottom: 161px;
@@ -6591,7 +6591,7 @@ ul.list-products {
 	padding-right: 400px;
 }
 .slider-item.style9 .slider-inner {
-	background-image: url(../images/slider-thumb6.jpg);
+	background-image: url(../images/banner-icore-3.png);
 }
 .slider-item.style9 .slider-inner .slider-infor {
 	padding-bottom: 161px;
@@ -8374,7 +8374,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 }
 /*banner home 02*/
 .item-banner.style4 .inner {
-	background-image: url(../images/banner-home-2.jpg);
+	background-image: url(../images/banner-home-icore-4.png);
 }
 .item-banner.style4 .banner-content {
 	padding-left: 40px;
@@ -8392,7 +8392,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	margin-bottom: 28px;
 }
 .item-banner.style5 .inner {
-	background-image: url(../images/banner-home-3.jpg);
+	background-image: url(../images/banner-home-icore-5.png);
 }
 .item-banner.style5 .banner-content {
 	padding-left: 40px;
@@ -8434,7 +8434,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 }
 /*banner home 03*/
 .item-banner.style7 .inner {
-	background-image: url(../images/banner-home-5.jpg);
+	background-image: url(../images/banner-icore-5.png);
 }
 .item-banner.style7 .banner-content {
 	padding-top: 58px;
@@ -8451,7 +8451,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	margin-bottom: 15px;
 }
 .item-banner.style8 .inner {
-	background-image: url(../images/banner-home-6.jpg);
+	background-image: url(../images/banner-icore-4.png);
 }
 .item-banner.style8 .banner-content {
 	padding-top: 53px;
@@ -8899,7 +8899,7 @@ iframe {
 	padding-top: 5px;
 }
 .item-banner.style17 .inner {
-	background-image: url(../images/banner-home-15.jpg);
+	background-image: url(../images/banner-home-4.jpg);
 }
 .item-banner.style17 .banner-content {
 	padding-top: 46px;

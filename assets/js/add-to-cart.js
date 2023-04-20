@@ -42,7 +42,7 @@ const updateShoppingCartHTML = function () {
                                 </div>
                                 <span class="product-price">
                                   <span class="price">
-                                    <span>₹${product.basePrice}</span>
+                                    <span>$${product.basePrice}</span>
                                   </span>
                                 </span>
                                 <span class="product-quantity"> (x${product.quantity}) </span>
@@ -58,7 +58,7 @@ const updateShoppingCartHTML = function () {
 
     cartElements.innerHTML = result.join("");
     cartCount.innerHTML = productsInCart.length;
-    cartAmount.innerHTML = `₹${countTheSumPrice()}`;
+    cartAmount.innerHTML = `$${countTheSumPrice()}`;
     document.querySelector(".no-product").classList.add("hidden");
     document.querySelector(".shopcart-description").classList.remove("hidden");
   } else {
