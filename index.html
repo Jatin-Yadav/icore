@@ -130,112 +130,12 @@
                     data-zentimo="zentimo-dropdown"
                   >
                     Cart
-                    <span class="count"> 0 </span>
+                    <span class="count cart-count"> 0 </span>
                   </a>
                   <div class="shopcart-description zentimo-submenu">
                     <div class="content-wrap">
                       <h3 class="title">Shopping Cart</h3>
-                      <ul class="minicart-items">
-                        <li class="product-cart mini_cart_item">
-                          <a href="#" class="product-media">
-                            <img
-                              src="assets/images/item-minicart-1.jpg"
-                              alt="img"
-                            />
-                          </a>
-                          <div class="product-details">
-                            <h5 class="product-name">
-                              <a href="#">Ring Video Doorbell</a>
-                            </h5>
-                            <div class="variations">
-                              <span class="attribute_color">
-                                <a href="#">Black</a>
-                              </span>
-                              ,
-                              <span class="attribute_size">
-                                <a href="#">300ml</a>
-                              </span>
-                            </div>
-                            <span class="product-price">
-                              <span class="price">
-                                <span>$45</span>
-                              </span>
-                            </span>
-                            <span class="product-quantity"> (x1) </span>
-                            <div class="product-remove">
-                              <a href="#"
-                                ><i class="fa fa-trash-o" aria-hidden="true"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="product-cart mini_cart_item">
-                          <a href="#" class="product-media">
-                            <img
-                              src="assets/images/item-minicart-2.jpg"
-                              alt="img"
-                            />
-                          </a>
-                          <div class="product-details">
-                            <h5 class="product-name">
-                              <a href="#">Soap Electronics Solutions</a>
-                            </h5>
-                            <div class="variations">
-                              <span class="attribute_color">
-                                <a href="#">Black</a>
-                              </span>
-                              ,
-                              <span class="attribute_size">
-                                <a href="#">300ml</a>
-                              </span>
-                            </div>
-                            <span class="product-price">
-                              <span class="price">
-                                <span>$45</span>
-                              </span>
-                            </span>
-                            <span class="product-quantity"> (x1) </span>
-                            <div class="product-remove">
-                              <a href="#"
-                                ><i class="fa fa-trash-o" aria-hidden="true"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="product-cart mini_cart_item">
-                          <a href="#" class="product-media">
-                            <img
-                              src="assets/images/item-minicart-3.jpg"
-                              alt="img"
-                            />
-                          </a>
-                          <div class="product-details">
-                            <h5 class="product-name">
-                              <a href="#">Electronics Solutions Soap</a>
-                            </h5>
-                            <div class="variations">
-                              <span class="attribute_color">
-                                <a href="#">Black</a>
-                              </span>
-                              ,
-                              <span class="attribute_size">
-                                <a href="#">300ml</a>
-                              </span>
-                            </div>
-                            <span class="product-price">
-                              <span class="price">
-                                <span>$45</span>
-                              </span>
-                            </span>
-                            <span class="product-quantity"> (x1) </span>
-                            <div class="product-remove">
-                              <a href="#"
-                                ><i class="fa fa-trash-o" aria-hidden="true"></i
-                              ></a>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
+                      <ul class="minicart-items"></ul>
                       <div class="subtotal">
                         <span class="total-title">Subtotal: </span>
                         <span class="total-price">
@@ -254,6 +154,13 @@
                         </a>
                       </div>
                     </div>
+                  </div>
+                  <div class="no-product zentimo-submenu">
+                    <p class="text">
+                      You have
+                      <span> 0 item(s) </span>
+                      in your bag
+                    </p>
                   </div>
                 </div>
                 <div class="block-account block-header zentimo-dropdown">
@@ -1566,7 +1473,7 @@
                         </div>
                         <div class="product-info">
                           <h5 class="product-name product_title">
-                            <a href="#">Ring Video Doorbell</a>
+                            <a href="#">Shoap Doorbell</a>
                           </h5>
                           <div class="group-info">
                             <div class="stars-rating">
@@ -1582,54 +1489,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text over">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="1"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text over">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -1672,60 +1580,61 @@
                               <div class="count-star">(3)</div>
                             </div>
                             <div class="price">
-                              <del> $65 </del>
-                              <ins> $45 </ins>
+                              <del>$65</del>
+                              <ins>$45</ins>
                             </div>
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text over">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="2"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text over">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -1774,54 +1683,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="3"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -1864,60 +1774,61 @@
                               <div class="count-star">(3)</div>
                             </div>
                             <div class="price">
-                              <del> $65 </del>
-                              <ins> $45 </ins>
+                              <del> $85 </del>
+                              <ins> $75 </ins>
                             </div>
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text over">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="4"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text over">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -1950,7 +1861,7 @@
                         </div>
                         <div class="product-info">
                           <h5 class="product-name product_title">
-                            <a href="#">Ring Video Doorbell</a>
+                            <a href="#">Wireless Doorbell</a>
                           </h5>
                           <div class="group-info">
                             <div class="stars-rating">
@@ -1960,60 +1871,61 @@
                               <div class="count-star">(3)</div>
                             </div>
                             <div class="price">
-                              <del> $65 </del>
-                              <ins> $45 </ins>
+                              <del> $165 </del>
+                              <ins> $145 </ins>
                             </div>
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="5"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2062,54 +1974,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text over">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="6"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text over">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2158,54 +2071,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text over">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="7"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text over">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2254,54 +2168,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="8"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2360,54 +2275,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="9"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2456,54 +2372,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="10"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2552,54 +2469,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="11"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2648,54 +2566,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="12"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2744,54 +2663,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="13"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2840,54 +2760,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="14"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -2936,54 +2857,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="15"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3032,54 +2954,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="16"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3138,54 +3061,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="17"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3234,54 +3158,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="18"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3330,54 +3255,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="19"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3426,54 +3352,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="20"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3522,54 +3449,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="21"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3618,54 +3546,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="22"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3714,54 +3643,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text active">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="23"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text active">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -3810,54 +3740,55 @@
                           </div>
                         </div>
                         <div class="loop-form-add-to-cart">
-                          <form class="cart">
-                            <div class="single_variation_wrap">
-                              <div class="quantity">
-                                <div class="control">
-                                  <a
-                                    class="btn-number qtyminus quantity-minus"
-                                    href="#"
-                                    >-</a
-                                  >
-                                  <input
-                                    type="text"
-                                    data-step="1"
-                                    data-min="0"
-                                    value="1"
-                                    title="Qty"
-                                    class="input-qty qty"
-                                    size="4"
-                                  />
-                                  <a
-                                    href="#"
-                                    class="btn-number qtyplus quantity-plus"
-                                    >+</a
-                                  >
-                                </div>
-                              </div>
-                              <button class="single_add_to_cart_button button">
-                                Add to cart
-                              </button>
-                            </div>
-                            <div class="variations">
-                              <div class="variation">
-                                <label class="variation-label">
-                                  Capacity:
-                                </label>
-                                <div class="variation-value">
-                                  <a href="#" class="change-value text active">
-                                    <span>10ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>20ml</span>
-                                  </a>
-                                  <a href="#" class="change-value text">
-                                    <span>50ml</span>
-                                  </a>
-                                </div>
+                          <!-- <form class="cart"> -->
+                          <div class="single_variation_wrap">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
                               </div>
                             </div>
-                          </form>
+                            <button
+                              class="single_add_to_cart_button button"
+                              data-product-id="24"
+                            >
+                              Add to cart
+                            </button>
+                          </div>
+                          <div class="variations">
+                            <div class="variation">
+                              <label class="variation-label"> Capacity: </label>
+                              <div class="variation-value">
+                                <a href="#" class="change-value text active">
+                                  <span>10ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>20ml</span>
+                                </a>
+                                <a href="#" class="change-value text">
+                                  <span>50ml</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- </form> -->
                         </div>
                       </div>
                     </li>
@@ -4369,5 +4300,6 @@
     <script src="assets/js/jquery.scrollbar.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3nDHy1dARR-Pa_2jjPCjvsOR4bcILYsM"></script>
     <script src="assets/js/frontend-plugin.js"></script>
+    <script src="assets/js/add-to-cart.js"></script>
   </body>
 </html>
