@@ -73,10 +73,12 @@ function updateProductsInCart(product) {
       productsInCart[i].quantity += 1;
       productsInCart[i].price =
         productsInCart[i].basePrice * productsInCart[i].quantity;
+      alert(`${product.name} updated to the cart`);
       return;
     }
   }
   productsInCart.push(product);
+  alert(`${product.name} added to the cart`);
 }
 
 products.forEach((item) => {
