@@ -66,8 +66,11 @@
               </div>
             </div>
             <ul class="header-user-links">
-              <li>
+              <!-- <li>
                 <a href="login.html">Login or Register</a>
+              </li> -->
+              <li>
+                <a href="tel:1234">Call</a>
               </li>
             </ul>
           </div>
@@ -163,7 +166,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="block-account block-header zentimo-dropdown">
+                <!-- <div class="block-account block-header zentimo-dropdown">
                   <a href="javascript:void(0);" data-zentimo="zentimo-dropdown">
                     <i class="fa fa-user-o" aria-hidden="true"></i>
                   </a>
@@ -248,7 +251,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <a class="menu-bar mobile-navigation menu-toggle" href="#">
                   <span></span>
                   <span></span>
@@ -277,18 +280,29 @@
                 >
                   <li class="menu-item">
                     <a
-                      href="#"
+                      title="Hot Sale"
+                      href="laptops.html"
                       class="zentimo-menu-item-title"
-                      title="New Arrivals"
                       >New Arrivals</a
                     >
                   </li>
                   <li class="menu-item">
-                    <a title="Hot Sale" href="#" class="zentimo-menu-item-title"
+                    <a
+                      title="Hot Sale"
+                      href="laptops.html"
+                      class="zentimo-menu-item-title"
                       >Hot Sale</a
                     >
                   </li>
-                  <li class="menu-item menu-item-has-children">
+                  <li class="menu-item">
+                    <a
+                      href="antivirus.html"
+                      class="zentimo-menu-item-title"
+                      title="New Arrivals"
+                      >Antivirus</a
+                    >
+                  </li>
+                  <!-- <li class="menu-item menu-item-has-children">
                     <a
                       title="Accessories"
                       href="#"
@@ -332,11 +346,11 @@
                         >
                       </li>
                     </ul>
-                  </li>
+                  </li> -->
                   <li class="menu-item">
                     <a
                       title="TV & Video"
-                      href="#"
+                      href="laptops.html"
                       class="zentimo-menu-item-title"
                       >MacBook</a
                     >
@@ -344,7 +358,7 @@
                   <li class="menu-item">
                     <a
                       title="Headphones"
-                      href="#"
+                      href="laptops.html"
                       class="zentimo-menu-item-title"
                       >Netbook</a
                     >
@@ -352,7 +366,7 @@
                   <li class="menu-item">
                     <a
                       title="Electronics"
-                      href="#"
+                      href="laptops.html"
                       class="zentimo-menu-item-title"
                       >Chromebook</a
                     >
@@ -681,7 +695,14 @@
                   </p>
                   <p class="form-row forn-row-col forn-row-col-1">
                     <label class="text">Country</label>
-                    <select
+                    <input
+                      title="country"
+                      type="text"
+                      value="United States"
+                      class="input-text"
+                      readonly
+                    />
+                    <!-- <select
                       title="country"
                       data-placeholder="United Kingdom"
                       class="chosen-select"
@@ -717,11 +738,17 @@
                       <option value="Benin">Benin</option>
                       <option value="Bermuda">Bermuda</option>
                       <option value="Bhutan">Bhutan</option>
-                    </select>
+                    </select> -->
                   </p>
                   <p class="form-row forn-row-col forn-row-col-2">
                     <label class="text">State</label>
-                    <select
+                    <input
+                      title="state"
+                      type="text"
+                      value=""
+                      class="input-text"
+                    />
+                    <!-- <select
                       title="state"
                       data-placeholder="London"
                       class="chosen-select"
@@ -741,11 +768,17 @@
                       <option value="Antigua and Barbuda">Matx-cơ-va</option>
                       <option value="Argentina">Toronto</option>
                       <option value="Armenia">Boston</option>
-                    </select>
+                    </select> -->
                   </p>
                   <p class="form-row forn-row-col forn-row-col-3">
                     <label class="text">City</label>
-                    <select
+                    <input
+                      title="city"
+                      type="text"
+                      value=""
+                      class="input-text"
+                    />
+                    <!-- <select
                       title="city"
                       data-placeholder="London"
                       class="chosen-select"
@@ -765,7 +798,7 @@
                       <option value="Antigua and Barbuda">Matx-cơ-va</option>
                       <option value="Argentina">Toronto</option>
                       <option value="Armenia">Boston</option>
-                    </select>
+                    </select> -->
                   </p>
                   <p class="form-row form-row-first">
                     <label class="text">Zip code</label>
@@ -779,10 +812,12 @@
                 <div class="payment-method">
                   <h3 class="title-form">Payment Method</h3>
                   <div class="group-button-payment">
-                    <a href="#" class="button btn-credit-card">CREDIT CARD</a>
-                    <a href="#" class="button btn-paypal">paypal</a>
+                    <a href="#" class="button btn-credit-card"
+                      >CASH ON DELIVERY</a
+                    >
+                    <!-- <a href="#" class="button btn-paypal">paypal</a> -->
                   </div>
-                  <p class="form-row form-row-card-number">
+                  <!-- <p class="form-row form-row-card-number">
                     <label class="text">Card number</label>
                     <input
                       type="text"
@@ -851,7 +886,7 @@
                       <option value="cvv9">753</option>
                       <option value="vcc10">963</option>
                     </select>
-                  </p>
+                  </p> -->
                 </div>
               </div>
               <div class="row-col-2 row-col">
@@ -872,7 +907,7 @@
                     >BACK TO SHIPPING</a
                   >
                   <a href="payment_successfull.html" class="button btn-pay-now"
-                    >PAY NOW</a
+                    >ORDER NOW</a
                   >
                 </div>
               </div>
@@ -954,6 +989,9 @@
                   </li>
                   <li class="menu-item">
                     <a href="terms_condition.html">Terms & Conditions</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="contact.html">Contact Us</a>
                   </li>
                 </ul>
               </div>
