@@ -4838,7 +4838,7 @@ ul.list-products {
 /*about page*/
 /*banner about*/
 .header-banner.banner-image .banner-wrap {
-	background-image: url(../images/about-background.jpg) !important;
+	background-image: url(../images/about-bg.png) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
