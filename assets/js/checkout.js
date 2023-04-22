@@ -5,15 +5,6 @@
 
 const checkOutElements = document.querySelector(".list-product-order");
 const totalAmount = document.querySelector(".total-amount");
-console.log("total-price", totalAmount);
-
-const countTheTotalAmount = function () {
-  let sum = 0;
-  productsInCart.forEach((item) => {
-    sum += item.price;
-  });
-  return sum;
-};
 
 const updateShoppingCheckoutHTML = function () {
   if (productsInCart.length > 0) {
