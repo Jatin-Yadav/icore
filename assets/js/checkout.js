@@ -62,6 +62,7 @@ function sendMail() {
   productsInCart.forEach((item) => {
     sum += item.price;
   });
+
   var params = {
     orderfrom:
       document.getElementById("fname").value +
@@ -73,7 +74,7 @@ function sendMail() {
     zip: document.getElementById("zip").value,
     address: document.getElementById("address").value,
     totalprice: `$${sum}`,
-    orderdetails: toString(productsInCart[0]),
+    products: productsInCart[0],
   };
 
   const serviceID = "service_v1tj2ws";
@@ -83,7 +84,7 @@ function sendMail() {
     .send(serviceID, templateID, params)
     .then((res) => {
       console.log(res);
-      alert("Your message sent successfully!!");
+      alert("Your Order Placed Successfully!!");
       document.getElementById("checkout_successfully").click();
     })
     .catch((err) => console.log(err));
