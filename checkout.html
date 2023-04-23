@@ -33,6 +33,15 @@
     <link rel="stylesheet" href="assets/css/mobile-menu.css" />
     <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("9JNKvLR28e4lrDzFW");
+      })();
+    </script>
   </head>
   <body class="inblog-page">
     <header class="header style7">
@@ -687,17 +696,28 @@
                   <h3 class="title-form">Shipping Address</h3>
                   <p class="form-row form-row-first">
                     <label class="text">First name</label>
-                    <input title="first" type="text" class="input-text" />
+                    <input
+                      title="first"
+                      id="fname"
+                      type="text"
+                      class="input-text"
+                    />
                   </p>
                   <p class="form-row form-row-last">
                     <label class="text">Last name</label>
-                    <input title="last" type="text" class="input-text" />
+                    <input
+                      title="last"
+                      id="lname"
+                      type="text"
+                      class="input-text"
+                    />
                   </p>
                   <p class="form-row forn-row-col forn-row-col-1">
                     <label class="text">Country</label>
                     <input
                       title="country"
                       type="text"
+                      id="country"
                       value="United States"
                       class="input-text"
                       readonly
@@ -745,6 +765,7 @@
                     <input
                       title="state"
                       type="text"
+                      id="state"
                       value=""
                       class="input-text"
                     />
@@ -776,6 +797,7 @@
                       title="city"
                       type="text"
                       value=""
+                      id="city"
                       class="input-text"
                     />
                     <!-- <select
@@ -802,11 +824,21 @@
                   </p>
                   <p class="form-row form-row-first">
                     <label class="text">Zip code</label>
-                    <input title="zip" type="text" class="input-text" />
+                    <input
+                      title="zip"
+                      id="zip"
+                      type="text"
+                      class="input-text"
+                    />
                   </p>
                   <p class="form-row form-row-last">
                     <label class="text">Address</label>
-                    <input title="address" type="text" class="input-text" />
+                    <input
+                      title="address"
+                      id="address"
+                      type="text"
+                      class="input-text"
+                    />
                   </p>
                 </div>
                 <div class="payment-method">
@@ -906,8 +938,8 @@
                   <a href="#" class="button btn-back-to-shipping"
                     >BACK TO SHIPPING</a
                   >
-                  <a href="payment_successfull.html" class="button btn-pay-now"
-                    >ORDER NOW</a
+                  <a class="button btn-pay-now" onclick="sendMail()">
+                    ORDER NOW</a
                   >
                 </div>
               </div>

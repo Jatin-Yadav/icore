@@ -12,7 +12,7 @@ const updateShoppingCheckoutHTML = function () {
     productsInCart.forEach((item) => {
       sum += item.price;
     });
-    console.log("sum", sum);
+
     let result = productsInCart.map((product) => {
       return `
       <li class="product-item-order">
@@ -49,3 +49,37 @@ const updateShoppingCheckoutHTML = function () {
 };
 
 updateShoppingCheckoutHTML();
+
+function sendMail() {
+  let sum = 0;
+  productsInCart.forEach((item) => {
+    sum += item.price;
+  });
+  var params = {
+    orderfrom:
+      document.getElementById("fname").value +
+      " " +
+      document.getElementById("lname").value,
+    country: document.getElementById("country").value,
+    state: document.getElementById("state").value,
+    city: document.getElementById("city").value,
+    zip: document.getElementById("zip").value,
+    address: document.getElementById("address").value,
+    totalprice: `$${sum}`,
+    orderdetails: toString(productsInCart[0]),
+  };
+
+  const serviceID = "service_v1tj2ws";
+  const templateID = "template_9r9otfd";
+
+  emailjs
+    .send(serviceID, templateID, params)
+    .then((res) => {
+      console.log(res);
+      alert("Your message sent successfully!!");
+      location.replace(
+        "file:///C:/Users/JATIN%20YADAV/Downloads/Projects/icore/payment_successfull.html"
+      );
+    })
+    .catch((err) => console.log(err));
+}
