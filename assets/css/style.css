@@ -10419,7 +10419,11 @@ iframe {
 	}
 	/*product item*/
 	.product-item .loop-form-add-to-cart {
-		display: none;
+		position: static;
+		visibility: visible;
+		opacity: 1;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.product-item .product-inner {
 		padding-bottom: 30px;
