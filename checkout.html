@@ -690,39 +690,42 @@
         <h3 class="custom_blog_title">Checkout</h3>
         <div class="checkout-wrapp">
           <div class="shipping-address-form-wrapp">
-            <div class="shipping-address-form checkout-form">
-              <div class="row-col-1 row-col">
-                <div class="shipping-address">
-                  <h3 class="title-form">Shipping Address</h3>
-                  <p class="form-row form-row-first">
-                    <label class="text">First name</label>
-                    <input
-                      title="first"
-                      id="fname"
-                      type="text"
-                      class="input-text"
-                    />
-                  </p>
-                  <p class="form-row form-row-last">
-                    <label class="text">Last name</label>
-                    <input
-                      title="last"
-                      id="lname"
-                      type="text"
-                      class="input-text"
-                    />
-                  </p>
-                  <p class="form-row forn-row-col forn-row-col-1">
-                    <label class="text">Country</label>
-                    <input
-                      title="country"
-                      type="text"
-                      id="country"
-                      value="United States"
-                      class="input-text"
-                      readonly
-                    />
-                    <!-- <select
+            <form>
+              <div class="shipping-address-form checkout-form">
+                <div class="row-col-1 row-col">
+                  <div class="shipping-address">
+                    <h3 class="title-form">Shipping Address</h3>
+                    <p class="form-row form-row-first">
+                      <label class="text">First name</label>
+                      <input
+                        title="first"
+                        id="fname"
+                        type="text"
+                        class="input-text"
+                        required
+                      />
+                    </p>
+                    <p class="form-row form-row-last">
+                      <label class="text">Last name</label>
+                      <input
+                        title="last"
+                        id="lname"
+                        type="text"
+                        class="input-text"
+                        required
+                      />
+                    </p>
+                    <p class="form-row forn-row-col forn-row-col-1">
+                      <label class="text">Country</label>
+                      <input
+                        title="country"
+                        type="text"
+                        id="country"
+                        value="United States"
+                        class="input-text"
+                        readonly
+                      />
+                      <!-- <select
                       title="country"
                       data-placeholder="United Kingdom"
                       class="chosen-select"
@@ -759,17 +762,18 @@
                       <option value="Bermuda">Bermuda</option>
                       <option value="Bhutan">Bhutan</option>
                     </select> -->
-                  </p>
-                  <p class="form-row forn-row-col forn-row-col-2">
-                    <label class="text">State</label>
-                    <input
-                      title="state"
-                      type="text"
-                      id="state"
-                      value=""
-                      class="input-text"
-                    />
-                    <!-- <select
+                    </p>
+                    <p class="form-row forn-row-col forn-row-col-2">
+                      <label class="text">State</label>
+                      <input
+                        title="state"
+                        type="text"
+                        id="state"
+                        value=""
+                        class="input-text"
+                        required
+                      />
+                      <!-- <select
                       title="state"
                       data-placeholder="London"
                       class="chosen-select"
@@ -790,17 +794,18 @@
                       <option value="Argentina">Toronto</option>
                       <option value="Armenia">Boston</option>
                     </select> -->
-                  </p>
-                  <p class="form-row forn-row-col forn-row-col-3">
-                    <label class="text">City</label>
-                    <input
-                      title="city"
-                      type="text"
-                      value=""
-                      id="city"
-                      class="input-text"
-                    />
-                    <!-- <select
+                    </p>
+                    <p class="form-row forn-row-col forn-row-col-3">
+                      <label class="text">City</label>
+                      <input
+                        title="city"
+                        type="text"
+                        value=""
+                        id="city"
+                        class="input-text"
+                        required
+                      />
+                      <!-- <select
                       title="city"
                       data-placeholder="London"
                       class="chosen-select"
@@ -821,35 +826,37 @@
                       <option value="Argentina">Toronto</option>
                       <option value="Armenia">Boston</option>
                     </select> -->
-                  </p>
-                  <p class="form-row form-row-first">
-                    <label class="text">Zip code</label>
-                    <input
-                      title="zip"
-                      id="zip"
-                      type="text"
-                      class="input-text"
-                    />
-                  </p>
-                  <p class="form-row form-row-last">
-                    <label class="text">Address</label>
-                    <input
-                      title="address"
-                      id="address"
-                      type="text"
-                      class="input-text"
-                    />
-                  </p>
-                </div>
-                <div class="payment-method">
-                  <h3 class="title-form">Payment Method</h3>
-                  <div class="group-button-payment">
-                    <a href="#" class="button btn-credit-card"
-                      >CASH ON DELIVERY</a
-                    >
-                    <!-- <a href="#" class="button btn-paypal">paypal</a> -->
+                    </p>
+                    <p class="form-row form-row-first">
+                      <label class="text">Zip code</label>
+                      <input
+                        title="zip"
+                        id="zip"
+                        type="text"
+                        class="input-text"
+                        required
+                      />
+                    </p>
+                    <p class="form-row form-row-last">
+                      <label class="text">Address</label>
+                      <input
+                        title="address"
+                        id="address"
+                        type="text"
+                        class="input-text"
+                        required
+                      />
+                    </p>
                   </div>
-                  <!-- <p class="form-row form-row-card-number">
+                  <div class="payment-method">
+                    <h3 class="title-form">Payment Method</h3>
+                    <div class="group-button-payment">
+                      <a href="#" class="button btn-credit-card"
+                        >CASH ON DELIVERY</a
+                      >
+                      <!-- <a href="#" class="button btn-paypal">paypal</a> -->
+                    </div>
+                    <!-- <p class="form-row form-row-card-number">
                     <label class="text">Card number</label>
                     <input
                       type="text"
@@ -919,31 +926,47 @@
                       <option value="vcc10">963</option>
                     </select>
                   </p> -->
+                  </div>
                 </div>
-              </div>
-              <div class="row-col-2 row-col">
-                <div class="your-order">
-                  <h3 class="title-form">Your Order</h3>
-                  <ul class="list-product-order"></ul>
-                  <div class="order-total">
-                    <span class="title"> Total Price: </span>
-                    <div class="total-price total-amount">$0</div>
+                <div class="row-col-2 row-col">
+                  <div class="your-order">
+                    <h3 class="title-form">Your Order</h3>
+                    <ul class="list-product-order"></ul>
+                    <div class="order-total">
+                      <span class="title"> Total Price: </span>
+                      <div class="total-price total-amount">$0</div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="payment-method-wrapp">
-              <div class="payment-method-form checkout-form">
-                <div class="button-control">
-                  <a href="#" class="button btn-back-to-shipping"
-                    >BACK TO SHIPPING</a
-                  >
-                  <a class="button btn-pay-now" onclick="sendMail()">
-                    ORDER NOW</a
-                  >
+              <div class="payment-method-wrapp">
+                <div class="payment-method-form checkout-form">
+                  <div class="button-control">
+                    <a href="#" class="button btn-back-to-shipping"
+                      >BACK TO SHIPPING</a
+                    >
+                    <input
+                      type="submit"
+                      class="button btn-pay-now"
+                      value="ORDER NOW"
+                    />
+                    <a
+                      class="button btn-pay-now"
+                      type="button"
+                      style="display: none"
+                    >
+                      ORDER NOW</a
+                    >
+                    <a
+                      href="payment_successfull.html"
+                      id="checkout_successfully"
+                      style="display: none"
+                      >Order Success</a
+                    >
+                  </div>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>

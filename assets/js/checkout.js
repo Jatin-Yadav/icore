@@ -50,6 +50,13 @@ const updateShoppingCheckoutHTML = function () {
 
 updateShoppingCheckoutHTML();
 
+$("form").on("submit", function (e) {
+  //ajax call here
+  sendMail();
+  //stop form submission
+  e.preventDefault();
+});
+
 function sendMail() {
   let sum = 0;
   productsInCart.forEach((item) => {
@@ -77,9 +84,7 @@ function sendMail() {
     .then((res) => {
       console.log(res);
       alert("Your message sent successfully!!");
-      location.replace(
-        "file:///C:/Users/JATIN%20YADAV/Downloads/Projects/icore/payment_successfull.html"
-      );
+      document.getElementById("checkout_successfully").click();
     })
     .catch((err) => console.log(err));
 }
