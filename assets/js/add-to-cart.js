@@ -5,6 +5,7 @@ if (!productsInCart) {
 const cartElements = document.querySelector(".minicart-items");
 const noCartElements = document.querySelector(".zentimo-submenu");
 const cartCount = document.querySelector(".cart-count");
+const cartFooterCount = document.querySelector(".cart-footer-count");
 const cartAmount = document.querySelector(".Price-amount");
 const products = document.querySelectorAll(".product-inner");
 
@@ -58,6 +59,7 @@ const updateShoppingCartHTML = function () {
 
     cartElements.innerHTML = result.join("");
     cartCount.innerHTML = productsInCart.length;
+    cartFooterCount.innerHTML = productsInCart.length;
     cartAmount.innerHTML = `$${countTheSumPrice()}`;
     document.querySelector(".no-product").classList.add("hidden");
     document.querySelector(".shopcart-description").classList.remove("hidden");
