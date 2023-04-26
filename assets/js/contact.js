@@ -17,14 +17,12 @@ function sendContactMail() {
   const serviceID = "service_v1tj2ws";
   const templateID = "template_1l5df1c";
 
-  alert("reached");
-
   emailjs
     .send(serviceID, templateID, params)
     .then((res) => {
       console.log(res);
       alert("Your Message Send Successfully!!");
-      //   document.getElementById("checkout_successfully").click();
+        document.getElementById("sent_successfully_home").click();
     })
     .catch((err) => console.log(err));
 }
