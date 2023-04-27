@@ -63,6 +63,25 @@ function sendMail() {
     sum += item.price;
   });
 
+  let productResult = productsInCart.map((product) => {
+    return `
+      <li class="product-item-order">
+      <div class="product-order-inner">
+        <h3 class="product-name">Product Name: ${product.name}</h3>
+        <span class="attributes-select attributes-color"
+          >${product.attribute_color},</span
+        >
+        <span class="attributes-select attributes-size"
+          >${product.attribute_size}</span
+        >
+        <h4 class="price">Price :
+          $${product.basePrice}
+          <span class="count">(${product.quantity})</span>
+        </h4>
+      </div>
+    </li>
+  `;
+  });
   var params = {
     orderfrom:
       document.getElementById("fname").value +
@@ -74,7 +93,7 @@ function sendMail() {
     zip: document.getElementById("zip").value,
     address: document.getElementById("address").value,
     totalprice: `$${sum}`,
-    products: productsInCart[0],
+    products: productResult.join(""),
   };
 
   const serviceID = "service_v1tj2ws";
