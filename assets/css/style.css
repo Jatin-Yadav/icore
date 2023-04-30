@@ -36,7 +36,8 @@ REPONSIVE
   1.0 COMPONENT STYLES
 ============================================================================ */
 body {
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: Helvetica, Arial,sans-serif;
 	font-size: 15px;
 	line-height: 24px;
 	color: #888;
@@ -3329,6 +3330,7 @@ blockquote .author .desc {
 	font-size: 40px;
 	font-weight: 500;
 	background: #000;
+	border-radius: 10%;
 	color: #fff;
 	position: fixed;
 	bottom: 50px;
@@ -3343,6 +3345,31 @@ blockquote .author .desc {
 .backtotop:hover {
 	color: #fff !important;
 	background: linear-gradient(to right, #EF426F, #EF426F 100%);
+}
+/*contactchat*/
+.contactchat {
+	display: none;
+	width: 44px;
+	height: 44px;
+	font-size: 40px;
+	font-weight: 500;
+	/* background: #000; */
+	/* border-radius: 50%; */
+	color: #000000;
+	position: fixed;
+	bottom: 50px;
+	right: 25px;
+	text-align: center;
+	line-height: 50px;
+	z-index: 999;
+}
+.contactchat.show {
+	display: block;
+}
+.contactchat:hover {
+	color: #fff !important;
+	background: linear-gradient(to right, #EF426F, #EF426F 100%);
+	border-radius: 10%;
 }
 /*coppyright*/
 .coppyright {
@@ -10472,6 +10499,10 @@ iframe {
 	}
 	/*backtotop*/
 	.backtotop.show {
+		display: none !important;
+	}
+	/*contactchat*/
+	.contactchat.show {
 		display: none !important;
 	}
 	/*====================home 01==============*/
